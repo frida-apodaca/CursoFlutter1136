@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ApodacaCurso/mi_widget/mi_tarjeta.dart';
+import 'package:ApodacaCurso/mi_widget/dialogo_acerca_de.dart';
+//import 'package:ApodacaCurso/mi_widget/mi_tarjeta.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 
@@ -19,7 +20,8 @@ class MiTarjeta extends StatelessWidget {
           title: const Text('Flutter Apodaca'),
           centerTitle: true,
         ),
-        body: LaTarjeta(),
+        //body: LaTarjeta(),
+        body: DialogoAcercaDe(),
       ),
     );
   }
